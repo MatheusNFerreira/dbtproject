@@ -5,4 +5,4 @@ with calc_employees as (
     firt_name || ' ' || last_name name, *
     from {{source('sources','employees')}}
 )
-slect * from calc_employees
+select * from calc_employees
